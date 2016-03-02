@@ -1,0 +1,25 @@
+{
+  "name": "vidi-mqtt-view",
+  "version": "0.0.1",
+  "description": "A queryable view for vidi-mqtt-metrics",
+  "main": "mqtt-view.js",
+  "author": "Dean McDonnell (http://mcdonnelldean.me)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vidi-insights/vidi-mqtt-view.git"
+  },
+  "contributors": [
+    "Shane Lacey (github.com/shanel262) <shane.lacey@nearform.com>"
+  ],
+  "devDependencies": {
+    "seneca": "1.1.0",
+    "vidi-metrics": "0.1.0",
+    "vidi-influx-sink": "0.1.1"
+  },
+  "dependencies": {
+    "influx": "4.1.0",
+    "lodash": "4.2.1",
+    "moment": "2.11.2"
+  }
+}
